@@ -332,6 +332,7 @@ li {
   bottom: 40px;
   right: 40px;
   z-index: 99;
+  box-shadow: 0 5px 28px rgb(0 0 0 / 45%);
   text-align: center;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -495,31 +496,17 @@ li {
   padding: 1px 30px;
   margin-right: 30px;
 }
-.header_social_1 ul {
+.header_social_1 div {
   overflow: hidden;
 }
-.header_social_1 ul li {
-  position: relative;
-  display: block;
-  float: left;
-  line-height: 30px;
-  margin-right: 25px;
-}
-.header_social_1 ul li:last-child {
-  margin-right: 0;
-}
-.header_social_1 ul li a {
+.header_social_1 .header_hours_inner {
   color: #9b9b9b;
   font-size: 12px;
   transition: all 500ms ease;
 }
-.header_social_1 ul li a i {
-  position: relative;
-  display: inline-block;
-  font-weight: 400;
-}
-.header_social_1 ul li a:hover {
-  color: var(--thm-primary);
+.header_hours_inner p{
+  padding: 0px;
+  margin: 0px;
 }
 .header_top_one_inner_left_text {
   position: relative;
@@ -871,6 +858,7 @@ li {
 .stricked-menu.stricky-fixed {
   opacity: 1;
   width: 100%;
+  box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
   margin: 0 auto;
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
@@ -1877,7 +1865,7 @@ li {
 
 .mobile-nav__contact li {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   position: relative;
   display: -webkit-box;
@@ -1965,7 +1953,9 @@ li {
   color: var(--thm-primary);
   background: var(--thm-base);
 }
-
+.get_to_know_img_left{
+  display: none;
+}
 /*--------------------------------------------------------------
 # Welcome One
 --------------------------------------------------------------*/
@@ -1986,8 +1976,8 @@ li {
 .welcome_one_left {
   position: relative;
   display: block;
-  margin-right: 146px;
-  margin-left: -120px;
+  margin-right: 84px;
+  margin-left: 0px;
 }
 .welcome_one_left_image {
   position: relative;
@@ -2907,7 +2897,7 @@ li {
   position: absolute;
   top: -100px;
   left: -100000px;
-  right: 0;
+  right: -25px;
   bottom: -107px;
   content: "";
   background: var(--thm-primary);
@@ -2932,8 +2922,8 @@ li {
 }
 .two_sections_one_left ul li:last-child {
   border-bottom: 0;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  padding-bottom: 70px;
+  margin-bottom: 24px;
 }
 .two_sections_one_left ul li .icon_box {
   position: absolute;
@@ -3308,14 +3298,22 @@ li {
 .footer-widget_about_text p{
   line-height: 30px;
 }
-.footer-widget_about_icon a{
+.footer-widget_about_p p{
+font-weight: 700;
+color: #fff;
+}
+.footer-widget_about_p i{
+  color: #c58736;
+  margin-right: 10px;
+}
+/* .footer-widget_about_icon a{
   text-decoration: none;
   color: #fff;
   margin-right: 25px;
-}
-.footer-widget_about_icon a i{
+} */
+/* .footer-widget_about_icon a i{
   font-size: 17px;
-}
+} */
 .footer-widget__about ul li .footer-widget_about_text a:hover {
   color: var(--thm-primary);
 }
@@ -3548,7 +3546,7 @@ li {
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
 }
 .site-footer_bottom_copyright {
 }
@@ -4482,7 +4480,16 @@ li {
   background: var(--thm-base);
   color: var(--thm-primary);
 }
+.block-icon_review{
+  margin-bottom: 20px;
+}
+.block-icon_review i{
+  font-size: 28px;
+  margin-right: 12px;
+  color: #c58736;
 
+
+}
 /*--------------------------------------------------------------
 # We Are Commited
 --------------------------------------------------------------*/
@@ -4808,7 +4815,7 @@ li {
 }
 .leaders_left_image:before {
   position: absolute;
-  top: -120px;
+  top: -117px;
   left: -10000000px;
   right: 240px;
   bottom: -120px;
@@ -4971,7 +4978,8 @@ li {
 .testimonails_two_text {
 }
 .testimonails_two_text p {
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 24px;
   margin: 0;
   font-weight: 400;
   color: #9b9b9b;
