@@ -5564,7 +5564,7 @@ color: #fff;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-.services_all_list li a:hover {
+.services_all_list li a:hover, .services_all_list li a.active{
   background: var(--thm-primary);
   color: var(--thm-base);
 }
